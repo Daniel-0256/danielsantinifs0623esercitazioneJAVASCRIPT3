@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-around;
+}
+header h1 {
+    font-size: 9em;
+    color: white;
+}
+
+/* MAIN */
+main {
+    text-align: center;
+}
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cardContainer {
+    overflow: hidden;
+    flex-basis: 35%;
+    background-color: rgb(61, 66, 70);
+    border-radius: 10px;
+}
+main p {
+    font-size: 35px;
+}
+.cardContainer img {
+    width: auto;
+    height: 300px;
+}
+
+/* BUTTON */
+.btnNewPhone {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+}
+.btnNewPhone:hover {
+    background-color: rgb(61, 66, 70);
+}
+.btnEditPhone {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+}
+.btnEditPhone:hover {
+    background-color: rgb(61, 66, 70);
+}
+
+.btnDetail {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    margin: 10px;
+}
+.btnDetail:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.btnEdit {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    margin: 10px;
+}
+.btnEdit:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+/*PAGINA MODIFICA*/
+#pageEdit {
+    width: 85%;
+    max-width: 700px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+#editPhone {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    margin: 10px;
+}
+#editPhone:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#deletPhone {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    margin: 10px;
+}
+#deletPhone:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#closeDivEdit {
+    width: 95%;
+    text-align: right;
+}
+.closeIconEdit {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: brown;
+    cursor: pointer;
+}
+#phoneNameDelet {
+    border: 1px solid black;
+    width: 190px;
+}
+
+
+/* FORM */
+#newPhonePage {
+    width: 85%;
+    max-width: 700px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    display: none;
+}
+#newPhoneForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#newPhoneForm input {
+    width: 80%;
+    max-width: 600px;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+#closeIconDiv {
+    width: 95%;
+    text-align: right;
+}
+.closeIcon {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: brown;
+    cursor: pointer;
+}
+
